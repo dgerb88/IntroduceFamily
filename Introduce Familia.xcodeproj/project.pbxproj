@@ -17,6 +17,7 @@
 		4F03B3CB2ABDE1DE007A1045 /* Introduce_FamiliaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F03B3CA2ABDE1DE007A1045 /* Introduce_FamiliaUITestsLaunchTests.swift */; };
 		4F03B3D82ABDE20E007A1045 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F03B3D72ABDE20E007A1045 /* SecondViewController.swift */; };
 		4FF156E22AEC100400EDC33F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF156E12AEC100400EDC33F /* TableViewController.swift */; };
+		4FF156E42AEC178500EDC33F /* Family Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF156E32AEC178500EDC33F /* Family Member.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		4F03B3CA2ABDE1DE007A1045 /* Introduce_FamiliaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Introduce_FamiliaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4F03B3D72ABDE20E007A1045 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		4FF156E12AEC100400EDC33F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		4FF156E32AEC178500EDC33F /* Family Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Family Member.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				4F03B3D72ABDE20E007A1045 /* SecondViewController.swift */,
 				4FF156E12AEC100400EDC33F /* TableViewController.swift */,
 				4F03B3AD2ABDE1DD007A1045 /* Main.storyboard */,
+				4FF156E32AEC178500EDC33F /* Family Member.swift */,
 				4F03B3B02ABDE1DE007A1045 /* Assets.xcassets */,
 				4F03B3B22ABDE1DE007A1045 /* LaunchScreen.storyboard */,
 				4F03B3B52ABDE1DE007A1045 /* Info.plist */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FF156E42AEC178500EDC33F /* Family Member.swift in Sources */,
 				4F03B3D82ABDE20E007A1045 /* SecondViewController.swift in Sources */,
 				4F03B3A82ABDE1DD007A1045 /* AppDelegate.swift in Sources */,
 				4F03B3AA2ABDE1DD007A1045 /* SceneDelegate.swift in Sources */,
