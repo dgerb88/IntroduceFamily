@@ -10,10 +10,7 @@ import UIKit
 class SecondViewController: UIViewController {
 
     var nameOfPerson: String = ""
-    
 
-    
-    
     @IBOutlet weak var memberDescription: UILabel!
     @IBOutlet weak var memberImage: UIImageView!
     @IBOutlet weak var memberName: UILabel!

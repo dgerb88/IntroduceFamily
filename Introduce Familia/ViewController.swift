@@ -21,11 +21,11 @@ class ViewController: UIViewController {
 
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        var destination = segue.destination as! SecondViewController
+        let destination = segue.destination as! SecondViewController
         
-        if segue.identifier == "kylie" {
+        if segue.identifier == "mom" {
             destination.nameOfPerson = "Kylie"
-        } else if segue.identifier == "dax" {
+        } else if segue.identifier == "dad" {
             destination.nameOfPerson = "Dax"
         } else if segue.identifier == "koen" {
             destination.nameOfPerson = "Koen"

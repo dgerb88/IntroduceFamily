@@ -37,7 +37,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
                                 <connections>
-                                    <segue destination="sKS-mQ-yLo" kind="presentation" identifier="koen" id="57m-yr-Ll1"/>
+                                    <segue destination="sKS-mQ-yLo" kind="show" identifier="koen" id="fGn-3k-Ci5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A8r-2T-OEy">
@@ -45,7 +45,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
                                 <connections>
-                                    <segue destination="sKS-mQ-yLo" kind="presentation" identifier="dax" id="sZO-Zx-sCZ"/>
+                                    <segue destination="sKS-mQ-yLo" kind="show" identifier="dad" id="tBL-vw-MPZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ph-JC-Cn4">
@@ -57,7 +57,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
                                 <connections>
-                                    <segue destination="sKS-mQ-yLo" kind="presentation" identifier="kylie" id="zqu-Gp-VYP"/>
+                                    <segue destination="sKS-mQ-yLo" kind="show" identifier="mom" id="CGF-dU-EsS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JBZ-vH-aER">
@@ -69,7 +69,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
                                 <connections>
-                                    <segue destination="sKS-mQ-yLo" kind="presentation" identifier="navy" id="VBp-Q2-yvZ"/>
+                                    <segue destination="sKS-mQ-yLo" kind="show" identifier="navy" id="nuG-mE-rZ6"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -99,10 +99,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="SQJ-Ub-Eiy"/>
                     <connections>
-                        <outlet property="dadButton" destination="A8r-2T-OEy" id="t7Y-qD-Kih"/>
-                        <outlet property="koenButton" destination="vQg-OT-VUL" id="bJ4-AD-jKf"/>
-                        <outlet property="momButton" destination="0Ph-JC-Cn4" id="C9W-FQ-DQX"/>
-                        <outlet property="navyButton" destination="JBZ-vH-aER" id="8ce-ro-Nok"/>
+                        <outlet property="dadButton" destination="A8r-2T-OEy" id="dFt-3Q-JzG"/>
+                        <outlet property="koenButton" destination="vQg-OT-VUL" id="zi7-F7-gDa"/>
+                        <outlet property="momButton" destination="0Ph-JC-Cn4" id="Hr9-PY-tZp"/>
+                        <outlet property="navyButton" destination="JBZ-vH-aER" id="ucg-kg-yn0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -112,14 +112,13 @@
         <!--Second View Controller-->
         <scene sceneID="PWp-7i-Kiw">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TwW-FU-G4u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="sKS-mQ-yLo" customClass="SecondViewController" customModule="Introduce_Familia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ogQ-5w-nmD">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WpE-yX-e3Y">
-                                <rect key="frame" x="152" y="50" width="89" height="43"/>
+                                <rect key="frame" x="152" y="153" width="89" height="43"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="cNj-bO-Rxl"/>
                                 </constraints>
@@ -128,13 +127,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LYT-Z4-yAH">
-                                <rect key="frame" x="16" y="111" width="361" height="456"/>
+                                <rect key="frame" x="16" y="214" width="361" height="456"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="456" id="WPn-sX-Y8K"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jGI-Ia-unp">
-                                <rect key="frame" x="20" y="592" width="353" height="20.333333333333371"/>
+                                <rect key="frame" x="20" y="695" width="353" height="20.333333333333371"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -160,6 +159,7 @@
                         <outlet property="memberName" destination="WpE-yX-e3Y" id="oUb-6f-bVj"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TwW-FU-G4u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1820.6106870229007" y="3.5211267605633805"/>
         </scene>
@@ -183,7 +183,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="57m-yr-Ll1"/>
+        <segue reference="nuG-mE-rZ6"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="bigFam" width="640" height="930"/>
